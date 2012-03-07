@@ -1,0 +1,21 @@
+execshadejar
+
+OVERVIEW
+
+This is a bare-bones maven project that builds an all-in-one executable 
+jar. It's meant to be copied and re-used for other projects, exactly
+like a maven artifact. I would like to upload it somewhere so it can
+become freely available, but I don't know how. So for now, it sits in
+github.
+
+A CLI library, JCommander is included by default to demonstrate that
+dependencies are rolled into the resulting jar.
+
+The latest (as of this time) junit is included, 4.10, and a pair
+of test classes are included to demonstrate annotation-based testing.
+
+USAGE
+
+Write your own code. Modify pom.xml to have the main method you want
+invoked if the jar file is directly executed via java -jar.
+
